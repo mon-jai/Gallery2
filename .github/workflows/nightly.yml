@@ -1,6 +1,7 @@
 name: Nightly CI
 
 on:
+  workflow_dispatch:
   push:
    branches:
     - nightly
